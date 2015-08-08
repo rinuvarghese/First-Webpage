@@ -1,0 +1,83 @@
+/*
+ * Add your CSS styles here
+ * 
+ */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #99CCFF;
+	/*background-image: url("background.jpg") ;*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 100% 100%;*/
+	/*-webkit-filter:greyscale(1);*/
+	/*filter:greyscale(1);*/
+
+
+/**background: #f4f4f4;*/
+
+}
+
+h1, h2, h3 {
+	color: #222;
+}
+
+p {
+	line-height: 24px;
+	color:#222;
+	font-family: 'Play', sans-serif;
+
+}
+
+.name
+{
+	color: #666699;
+	font-family: 'Open Sans Condensed', sans-serif;;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.ChangeNameButton
+{
+ color:#666699;
+ background-color : white;
+
+}
+
+#header  {
+	border-bottom: 1px solid #999;
+}
+
+#nav {
+	margin: 0 20px 0 0;
+  /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
+}
+
+#main {
+	margin: 0;
+	float : right;
+  /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
+  /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
+}
+
+#copyright {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* Ignore this for now, it is special code needed to fix the layout after using the "float" rules */
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }
